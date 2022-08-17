@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="244.467mm" height="244.467mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3590.83 3590.83"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#AA33D7;stroke-width:124.36;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:#333333}
+    .fil1 {fill:white;fill-rule:nonzero}
+    .fil2 {fill:url(#id0);fill-rule:nonzero}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1916.74" y1="1866.65" x2="2528.53" y2="1611.94">
+   <stop offset="0" style="stop-opacity:1; stop-color:#802CCA"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#B034D9"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="1795.41" cy="1795.41" r="1733.23"/>
+  <path class="fil1" d="M1757.11 2428.51l412.21 -1359.23 51.53 -17.77 -193.67 0 40.86 14.21 -264.74 923.92 -284.28 -938.13 -193.67 0 -268.29 938.13 -278.95 -922.14 106.61 -15.99 -429.98 0 119.04 19.54 383.78 1209.98 53.3 147.47 362.46 -1213.53 330.48 1066.06 53.3 147.47zm565.91 238.02c545.47,-10.66 787.11,-398 787.11,-788.88 0,-346.47 -191.89,-698.27 -529.48,-788.88 -133.26,-35.54 -252.3,-37.31 -389.11,-37.31l-184.78 0 113.71 17.77 0 1339.68 -113.71 19.54 426.42 0 -108.38 -17.77 0 -1309.48c19.55,-1.78 37.31,-3.55 55.08,-3.55 319.82,0 497.49,371.34 497.49,748.02 0,373.12 -175.9,751.57 -556.13,771.12l-49.75 1.78c-739.13,0 -959.45,-858.18 -1515.58,-858.18 -104.83,0 -220.32,30.21 -353.58,101.28 83.51,-39.09 158.13,-56.86 229.2,-56.86 501.05,0 753.35,861.73 1657.72,861.73l33.76 0z"/>
+  <path class="fil2" d="M2438.52 2428.02l-113.71 -17.77 0 -1341.46 104.45 -8.5c-44.61,-8.32 -195.06,-10.88 -422.49,-9.26l113.71 17.77 0 1339.8 -113.71 19.43 431.75 0z"/>
+ </g>
+</svg>
