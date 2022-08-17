@@ -1,0 +1,15 @@
+.introducao-bg {
+    background: #4d4d4d;
+}
+
+.introducao-container {
+    max-width: 1300px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+
+    height: 1000px;
+}

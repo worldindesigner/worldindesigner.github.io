@@ -1,0 +1,64 @@
+.header {
+    background: #1a1a1a;
+}
+
+.header-container {
+    max-width: 1300px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header-menu a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+.header-menu a:hover {
+    color: #a8f;
+}
+
+.header-menu li:last-child a:hover{
+    background: #a8f;
+    color: #f1f1f1;
+}
+
+.header-login {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    background: #4d4d4d;
+    color: #f1f1f1;
+}
+
+/* Animação SVG*/
+.fil0 {
+    fill: white;
+}
+.fil1 {
+    fill:url(#id0);
+    opacity: 0;
+    transition: 1s;
+}
+.header-container:hover .fil1 {
+    fill:url(#id0);
+    opacity: 1;
+    transition: 1s;
+}
