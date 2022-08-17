@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Menk | New Index</title>
+</head>
+<body>
+    <nav class="header">
+            <div>
+                <img class="banner" src="/banner-milk.jpg" alt="Logo Milk Menk">
+            </div>
+            <div class="nav">
+                <div>
+                    <img src="./MILK MENK - LOGO.png" alt="Logo Milk Menk">
+                </div>
+                <div>
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Produtos <span class="seta-baixo"></span></a>
+                        </div>
+                        <div class="dropdown-content">
+                            <span><a href="#">Coalhada</a></span>
+                            <span><a href="#">Creme De Leite</a></span>
+                            <span><a href="#">Doce de Leite</a></span>
+                            <span><a href="#">Iogurte</a></span>
+                            <span><a href="#">Leite</a></span>
+                            <span><a href="#">Manteiga</a></span>
+                            <span><a href="#">Requeijão</a></span>
+                            <span><a href="#">Queijos</a></span>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Parceiros <span class="seta-baixo"></span></a>
+                        </div>
+                        <div class="dropdown-content">
+                            <span><a href="#">Capivari</a></span>
+                            <span><a href="#">Porto Feliz</a></span>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Sobre <span class="seta-baixo"></span></a>
+                        </div>
+                        <div class="dropdown-content">
+                            <span><a href="#">História</a></span>
+                            <span><a href="#">Conciência Sustentável</a></span>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Fazenda <span class="seta-baixo"></span></a>
+                        </div>
+                        <div class="dropdown-content">
+                            <span><a href="#">Gado</a></span>
+                            <span><a href="#">Prêmios</a></span>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Receitas</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropbtn-bg">
+                            <a class="dropbtn">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+    <style>
+        * {
+            margin: 0;
+        }
+        /* OPEN NAV */
+        .dropbtn {
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .dropbtn-bg {
+            width: 120px;
+            height: 70px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .seta-baixo::after {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            height: 8px;
+            background: rgb(255, 255, 255);
+            transform: rotate(45deg);
+            position: relative;
+            left: 8px;
+
+        }
+        .seta-baixo::before {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            height: 8px;
+            background: rgb(255, 255, 255);
+            transform: rotate(-45deg);
+            position: relative;
+            right: -4px;
+        }
+        .dropdown-content {
+            display: block;
+            opacity: 0;
+            transition: opacity 0.2s linear;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 220px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 4px;
+            background: #5eb5b1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 15px 10px 0px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content span::after {
+            content: "";
+            display: block;
+            background: rgb(226, 226, 226);
+            margin: 5% 5% 0 5%;
+            width: 90%;
+            height: 1px;
+        }
+        .dropdown-content a:hover {color: #5eb5b1;}
+
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            display: block;
+            transition: opacity 0.2s linear;
+        }
+
+        .dropdown:hover .dropbtn{
+            color: #5eb5b1;
+        }
+
+        .dropdown:hover .seta-baixo::after, .dropdown:hover .seta-baixo::before {
+            background: #5eb5b1;
+        }
+        /* CLOSE NAV */
+
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px 0;
+            background: transparent;
+            position: absolute;
+            width: 100%;
+        }
+        .banner {
+            width: 100%;
+            position: absolute;
+        }
+        .header {
+            width: 100%;
+            background-color: transparent;
+        }
+    </style>
+</body>
+</html>
