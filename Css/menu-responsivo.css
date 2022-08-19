@@ -1,0 +1,36 @@
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #btn-mobile {
+        display: block;
+    }
+
+    .header-menu {
+       display: block; 
+       position: absolute;
+       width: 100%;
+       top: 79px;
+       right: 0;
+       background: #1a1a1a;
+       height: 0px;
+       transition: .6s;
+       z-index: 1000;
+       visibility: hidden;
+       overflow-y: hidden;
+    }
+    #nav.active .header-menu {
+        height: calc(100vh - 80px);
+        visibility: visible;
+        /* overflow-y: auto; // barra de rolagem automatica, quando utrapassar o valor do container*/
+    }
+
+    .header-menu a {
+        padding: 1rem;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .5);
+    }
+    
+
+}
