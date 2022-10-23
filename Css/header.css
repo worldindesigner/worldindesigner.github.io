@@ -1,10 +1,13 @@
 .header {
+    position: relative;
     background: #1a1a1a;
+    opacity: .8;
+    z-index: 9999;
 }
 
 .header-container {
     max-width: 1300px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +60,7 @@
     opacity: 0;
     transition: 1s;
 }
-.header-container:hover .fil1 {
+.header-container:hover .fil1{
     fill:url(#id0);
     opacity: 1;
     transition: 1s;
